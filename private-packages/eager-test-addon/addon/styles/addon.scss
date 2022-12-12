@@ -1,0 +1,10 @@
+@import "assets";
+
+.eager-addon {
+  color: blue;
+  height: 200px;
+  background-image: asset-url('img/test.jpg');
+  background-size: contain;
+  background-position-y: 10px;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+      "module": "CommonJS",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "rootDir": "src",
+      "baseUrl": "src",
+      "composite": true,
+      "moduleResolution": "node",
+      "outDir": "./lib",
+      "alwaysStrict": true,
+      "strictBindCallApply": true,
+      "declaration": true,
+      "declarationMap": true,
+      "lib": [
+          "es2018"
+      ],
+      "target": "es2018",
+      "sourceMap": true,
+      "paths": {
+        "node-sass": ["../../eyeglass/@types/node-sass"],
+        "*": ["types/*"],
+      },
+      "noImplicitAny": false,
+      "noImplicitReturns": false,
+      "noImplicitThis": false,
+      "strictFunctionTypes": false,
+      "strictNullChecks": false,
+      "strictPropertyInitialization": false,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+  },
+  "include": [
+      "./src/**/*"
+  ],
+  "references": [
+    {"path": "../eyeglass"},
+    {"path": "../broccoli-eyeglass"}
+  ]
+
+}

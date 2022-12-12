@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "packages/eyeglass"
+		},
+		{
+			"path": "packages/broccoli-eyeglass"
+		},
+		{
+			"path": "packages/ember-cli-eyeglass"
+		},
+		{
+			"path": "private-packages/eager-test-addon"
+		},
+		{
+			"path": "private-packages/eyeglass-test-app"
+		},
+		{
+			"path": "private-packages/lazy-test-addon"
+		},
+		{
+			"path": "private-packages/eyeglass-embroider-app"
+		}
+	],
+	"settings": {
+		"cSpell.words": [
+			"heimdall"
+		]
+	}
+}

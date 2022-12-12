@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "rootDir": "src",
+        "baseUrl": "src",
+        "composite": true,
+        "moduleResolution": "node",
+        "outDir": "./lib",
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "declaration": true,
+        "declarationMap": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "lib": [
+            "es2018"
+        ],
+        "target": "es2018",
+        "sourceMap": true,
+        "paths": {
+          "*": ["types/*"],
+            "node-sass": ["../@types/node-sass"]
+        }
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}

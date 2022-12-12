@@ -1,0 +1,8 @@
+@import "assets";
+
+.lazy {
+  background: blue;
+  height: 200px;
+  background-image: asset-url('img/test.svg');
+  background-size: contain;
+}

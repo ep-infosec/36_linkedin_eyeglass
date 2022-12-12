@@ -1,0 +1,9 @@
+{
+  "name": "newer-module",
+  "keywords": ["eyeglass-module"],
+  "private": true,
+  "eyeglass": {
+    "needs": "^4.0",
+    "sassDir": "sass"
+  }
+}
